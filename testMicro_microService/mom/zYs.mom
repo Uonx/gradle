@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Model id="b384c8e16e21448b8bb453a0e05feca7" name="zYs" displayName="zYs" stereotype="3" nameSpace="com.uap">
+  <Package id="d4bfa0f3d9754208bdbdaf3b3cf95737" name="zYs" displayName="zYs" stereotype="3">
+    <BusinessClasses>
+      <BusinessClass id="549f51362c9041ef8393d3b3f6642aa5" name="ZDzzYs" displayName="ZDzzYs" stereotype="1">
+        <TableName>z_dzz_ys</TableName>
+        <IsAbstract>false</IsAbstract>
+        <Properties>
+          <Property id="6f92eef5e2b44d72b312b3c4d65b38de" name="id" displayName="id" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>0</OrderNum>
+            <Editor id="11482b037f0d4af5b9dc906d6dfc240f" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>32</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>id</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>true</IsPrimaryKey>
+            <Unique>true</Unique>
+            <Nullable>false</Nullable>
+            <PkName>PRIMARY_KEY_ID</PkName>
+            <PrimaryKeyPloy>UUID</PrimaryKeyPloy>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="b761d2e4728644e993c11d2f8b499399" name="jzkm" displayName="jzkm" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>1</OrderNum>
+            <Editor id="848ee1832e9b4cf19d1e9f1a562390b4" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>jzkm</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="e55a97f405e1485baeadb88768040cad" name="tbzzbs" displayName="tbzzbs" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>2</OrderNum>
+            <Editor id="103e17aac4e342379636996f75682bce" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>tbzzbs</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="36b7d11738bf4c3894212e913a8fcfbf" name="bxtykm" displayName="bxtykm" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>3</OrderNum>
+            <Editor id="bdf649b65be842f1ad245b3297ec1bdd" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>bxtykm</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="c002c3f2ee0447b286a045fd669b1b89" name="gys" displayName="gys" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>4</OrderNum>
+            <Editor id="9c57a6c1ffa14c508ff8097467250c21" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>gys</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="c1b776ada58444bb8d273dc93738e144" name="sl" displayName="sl" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>5</OrderNum>
+            <Editor id="8340b6f07fb64384b82454dee44785d8" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>sl</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="9d80840abd2e4bb9bf784b4e69874db3" name="sx" displayName="sx" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>6</OrderNum>
+            <Editor id="aabe8a9770c142da81d517f9609fd14b" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>sx</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="762af5be24e84ab38b5c4db06e34976b" name="cbzx" displayName="cbzx" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>7</OrderNum>
+            <Editor id="2f8a6547c4e94d28968446d356f4d2b1" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>cbzx</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="18311c5767af46bdbd62ba09aa748136" name="nbdd" displayName="nbdd" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>8</OrderNum>
+            <Editor id="fb92a42849934111b3ba066c570fab59" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>nbdd</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="5a7a7d746a0b487fa6109fda21e5a9c5" name="lrzx" displayName="lrzx" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>9</OrderNum>
+            <Editor id="9e78d11d0f1e40bdbfd50adf23e1f8c5" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>lrzx</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="2a63ee1de0cc451ab4fc75693407c711" name="wbs" displayName="wbs" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>10</OrderNum>
+            <Editor id="67b9a9ae6442451e93a87f69c5ea932a" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>wbs</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="86665312597949a1b0b2400addcf67e2" name="yydm" displayName="yydm" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>11</OrderNum>
+            <Editor id="ba13f8590c7d4c86ac993176dd046a62" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>yydm</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="82a0a328ac8a4f6489a255d6b3fed95c" name="wb" displayName="wb" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>12</OrderNum>
+            <Editor id="fd3e161657f94948a850e36af6322ee2" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>wb</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+          <Property id="d6d3dd04eb7b4f49a574b5ee3f524e70" name="xjysx" displayName="xjysx" stereotype="3">
+            <GroupId/>
+            <DataType>string</DataType>
+            <OrderNum>13</OrderNum>
+            <Editor id="8ebbaff2acf84de89f2faf1a5a55c8e5" name="" displayName="" stereotype="3" editorType="TextEditor" dataSourceType="0"/>
+            <DBDataLength>100</DBDataLength>
+            <DBDataPrecision>0</DBDataPrecision>
+            <DefaultValue/>
+            <DBColumnName>xjysx</DBColumnName>
+            <DBDataType/>
+            <QueryProperty>false</QueryProperty>
+            <IsPrimaryKey>false</IsPrimaryKey>
+            <Unique>false</Unique>
+            <Nullable>true</Nullable>
+            <IndexedColumn>false</IndexedColumn>
+            <ReadOnly>false</ReadOnly>
+            <Persistence>true</Persistence>
+          </Property>
+        </Properties>
+        <ExtendAttributies/>
+        <Operations>
+          <Operation id="ca6ff2f623694842833d215550f8c01e" name="add" displayName="新增" stereotype="3" operationType="standard"/>
+          <Operation id="8351234713f745cebd0083d04a9bb223" name="update" displayName="编辑" stereotype="3" operationType="standard"/>
+          <Operation id="d12d7c0b1b6e48a796ab805fd9d14af9" name="delete" displayName="删除" stereotype="3" operationType="standard"/>
+          <Operation id="62ea9e8044084b31b5cef98ff3290766" name="get" displayName="获取详情" stereotype="3" operationType="standard"/>
+          <Operation id="58e8edc7127c44f88429aa5d6ca6c2f9" name="query" displayName="查询列表" stereotype="3" operationType="standard"/>
+        </Operations>
+      </BusinessClass>
+    </BusinessClasses>
+  </Package>
+</Model>
